@@ -1,0 +1,3842 @@
+[
+    {
+        "id": 1,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 2,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 3,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 4,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 5,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 6,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 7,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 8,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 9,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 10,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 11,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 12,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 13,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 14,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 15,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 16,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 17,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 18,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 19,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 20,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 21,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 22,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 23,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 24,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 25,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 26,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 27,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 28,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 29,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 30,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 31,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 32,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 33,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 34,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 35,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 36,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 37,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 38,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 39,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 40,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 41,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 42,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 43,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 44,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 45,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 46,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 47,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 48,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 49,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 50,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 51,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 52,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 53,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 54,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 55,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 56,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 57,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 58,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 59,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 60,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 61,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 62,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 63,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 64,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 65,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 66,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 67,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 68,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 69,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 70,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 71,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 72,
+        "previous_candle": "Low",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 73,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 74,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 75,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 76,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 77,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 78,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 79,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 80,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 81,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 82,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 83,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 84,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 85,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 86,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 87,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 88,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 89,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 90,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 91,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 92,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 93,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 94,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 95,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 96,
+        "previous_candle": "Low",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 97,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 98,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 99,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 100,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 101,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 102,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 103,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 104,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 105,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 106,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 107,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 108,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 109,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 110,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 111,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 112,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 113,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 114,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 115,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Low and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 116,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Low and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 117,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Low and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 118,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Low and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 119,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Low and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 120,
+        "previous_candle": "Low",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Low and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 121,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 122,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 123,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 124,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 125,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 126,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 127,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 128,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 129,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 130,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 131,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 132,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 133,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 134,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 135,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 136,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 137,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 138,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 139,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 140,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 141,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 142,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 143,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 144,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 145,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 146,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 147,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 148,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 149,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 150,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 151,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 152,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 153,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 154,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 155,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 156,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 157,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 158,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 159,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 160,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 161,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 162,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 163,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 164,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 165,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 166,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 167,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 168,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 169,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 170,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 171,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 172,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 173,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 174,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 175,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 176,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 177,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 178,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 179,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 180,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 181,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 182,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 183,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 184,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 185,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 186,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 187,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 188,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 189,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 190,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 191,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 192,
+        "previous_candle": "Close",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 193,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 194,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 195,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 196,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 197,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 198,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 199,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 200,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 201,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 202,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 203,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 204,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 205,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 206,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 207,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 208,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 209,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 210,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 211,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 212,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 213,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 214,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 215,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 216,
+        "previous_candle": "Close",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 217,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 218,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 219,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 220,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 221,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 222,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 223,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 224,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 225,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 226,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 227,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 228,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 229,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 230,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 231,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 232,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 233,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 234,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 235,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Close and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 236,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Close and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 237,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Close and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 238,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Close and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 239,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Close and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 240,
+        "previous_candle": "Close",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Close and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 241,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 242,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 243,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 244,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 245,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 246,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 247,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 248,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 249,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 250,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 251,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 252,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 253,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 254,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 255,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 256,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 257,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 258,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 259,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 260,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 261,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 262,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 263,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 264,
+        "previous_candle": "High",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 265,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 266,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 267,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 268,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 269,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 270,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 271,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 272,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 273,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 274,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 275,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 276,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 277,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 278,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 279,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 280,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 281,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 282,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 283,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 284,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 285,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 286,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 287,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 288,
+        "previous_candle": "High",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 289,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 290,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 291,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 292,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 293,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 294,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 295,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 296,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 297,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 298,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 299,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 300,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 301,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 302,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 303,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 304,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 305,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 306,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 307,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 308,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 309,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 310,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 311,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 312,
+        "previous_candle": "High",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 313,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 314,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 315,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 316,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 317,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 318,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 319,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 320,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 321,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 322,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 323,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 324,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 325,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 326,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 327,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 328,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 329,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 330,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 331,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 332,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 333,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 334,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 335,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 336,
+        "previous_candle": "High",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 337,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 338,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 339,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 340,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 341,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 342,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 343,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 344,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 345,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 346,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 347,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 348,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 349,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 350,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 351,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 352,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 353,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 354,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 355,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle High and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 356,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle High and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 357,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle High and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 358,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle High and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 359,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle High and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 360,
+        "previous_candle": "High",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle High and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 361,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 362,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 363,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 364,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 365,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 366,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than or Equal to Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 367,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 368,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 369,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 370,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 371,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 372,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than or Equal to Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 373,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 374,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 375,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 376,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 377,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 378,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than or Equal to Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 379,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 380,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 381,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 382,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 383,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 384,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than or Equal to",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than or Equal to Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 385,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 386,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 387,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 388,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 389,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 390,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than or Equal To Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 391,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 392,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 393,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 394,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 395,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 396,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than or Equal To Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 397,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 398,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 399,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 400,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 401,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 402,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than or Equal To Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 403,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 404,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 405,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 406,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 407,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 408,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than or Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than or Equal To Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 409,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 410,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 411,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 412,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 413,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 414,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Equal To Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 415,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 416,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 417,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 418,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 419,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 420,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Equal To Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 421,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 422,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 423,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 424,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 425,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 426,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Equal To Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 427,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 428,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 429,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 430,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 431,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 432,
+        "previous_candle": "Open",
+        "close_condition": "Equal To",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Equal To Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 433,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 434,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 435,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 436,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 437,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 438,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Lower Than Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 439,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 440,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 441,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 442,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 443,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 444,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Lower Than Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 445,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 446,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 447,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 448,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 449,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 450,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Lower Than Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 451,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 452,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 453,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 454,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 455,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 456,
+        "previous_candle": "Open",
+        "close_condition": "Lower Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Lower Than Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 457,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 458,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 459,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 460,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 461,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 462,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Low",
+        "trade_condition": "Current Candle Low is Higher Than Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 463,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 464,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 465,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 466,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 467,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 468,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Close",
+        "trade_condition": "Current Candle Close is Higher Than Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 469,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 470,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 471,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 472,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 473,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 474,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "High",
+        "trade_condition": "Current Candle High is Higher Than Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    },
+    {
+        "id": 475,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Open and Above RSI Upper Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > UL"
+    },
+    {
+        "id": 476,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Open and Above RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 477,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Open and Below RSI Lower Limit",
+        "rsi_condition": "RSI > prev_rsi and RSI < LL"
+    },
+    {
+        "id": 478,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Open and Above the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > UL"
+    },
+    {
+        "id": 479,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Open and Below the RSI Upper Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI > LL and RSI < UL"
+    },
+    {
+        "id": 480,
+        "previous_candle": "Open",
+        "close_condition": "Higher Than",
+        "condition": "Open",
+        "trade_condition": "Current Candle Open is Higher Than Previous Candle Open and Below the RSI Lower Limit",
+        "rsi_condition": "RSI < prev_rsi and RSI < LL"
+    }
+]

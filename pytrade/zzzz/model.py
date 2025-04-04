@@ -1,0 +1,69 @@
+from config.database import db_connect 
+
+# Fetch pending orders
+def fetch_pending_orders():
+    db = db_connect()
+    cursor = db.cursor(dictionary=True)
+    query = """
+    SELECT uo.*, ua.status as exchange_status
+    FROM users_orders uo
+    LEFT JOIN users_api ua 
+        ON uo.user_id = ua.user_id 
+        AND uo.exchange_id = ua.exchange_id
+    WHERE uo.status = 'PENDING' 
+    AND ua.status = 1
+    """
+    cursor.execute(query)
+    orders = cursor.fetchall()
+    db.close()
+    return orders
+
+# Update users orders
+def update_users_orders(bin_order, user_id, user_order_id, exchange_id):
+    if bin_order['status'] == "FILLED":
+        db = db_connect()
+        cursor = db.cursor(dictionary=True)
+        update_query = """
+        UPDATE users_orders 
+        SET status = 'COMPLETE' 
+        WHERE user_id = %s AND order_id = %s AND exchange_id = %s AND status = 'PENDING'
+        """
+        cursor.execute(update_query, (user_id, user_order_id, exchange_id,))  # ✅ Fixed tuple issue
+        db.commit()
+        cursor.close()
+        db.close()
+
+# Fetch user API keys
+def fetch_user_api_keys(user_id, exchange_id):
+    db = db_connect()
+    cursor = db.cursor(dictionary=True)
+    cursor.execute("SELECT api_key, secret_key FROM users_api WHERE user_id = %s AND exchange_id = %s AND status = '1'", 
+                   (user_id, exchange_id))  
+    user = cursor.fetchone()
+    db.close()
+    return user
+
+def get_exchange_details(exchange_id):
+    db = db_connect()
+    cursor = db.cursor(dictionary=True)
+    query = """SELECT * FROM `exchange_list` WHERE `exchange_id` = %s"""
+    cursor.execute(query, (exchange_id,))  # ✅ Fixed tuple issue
+    details = cursor.fetchone()
+    db.close()
+    return details
+
+# Save Exchange order data
+def save_order_to_db(bin_order, user_id, user_order_id, exchange_id, entry_conditions):
+    db = db_connect()
+    cursor = db.cursor()
+    sql = """INSERT INTO exchange_orders 
+            (users_order_id, user_id, exchange_id, exchange_order_id, symbol, side, price, quantity, status, entry_conditions) 
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+    values = (
+        user_order_id, user_id, exchange_id, bin_order['orderId'], bin_order['symbol'], bin_order['side'],
+        bin_order['fills'][0]['price'], bin_order['executedQty'], bin_order['status'], entry_conditions or ""  # ✅ Ensuring entry_conditions is a valid string
+    )
+    cursor.execute(sql, tuple(values))  # ✅ Ensuring it's a tuple
+    db.commit()
+    cursor.close()
+    db.close()

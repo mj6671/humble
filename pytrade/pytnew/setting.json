@@ -1,0 +1,16 @@
+{
+	"settings": {
+		"rsi":{
+			"period": 14,
+			"upper_limit": 70,
+			"middle_limit": 50,
+			"lower_limit": 30
+		},
+		"supertrend":{
+			"status": 0,
+			"trailing_status": 0,
+			"length": 10,
+			"factor": 3
+		}
+	}
+}
